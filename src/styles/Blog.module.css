@@ -1,0 +1,29 @@
+.Blog {
+  margin: 12px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px #ccc;
+  background-color: #ffff;
+  max-width: 1100px;
+  font-size: 15px;
+}
+
+.Blog > button {
+  font-size: 15px;
+  background-color: #a9a9a9;
+  margin: auto;
+  border: 0;
+}
+
+.LikeCount {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media (min-width: 992px) {
+  .Blog {
+    width: 45%;
+    display: inline-block;
+  }
+}
